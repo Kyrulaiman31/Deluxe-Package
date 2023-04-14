@@ -1,0 +1,228 @@
+* {
+    margin: 0%;
+    
+}
+
+body {
+    background-color: #Ffff;
+    
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    
+        
+}
+
+div .container .box {
+    /* border: 2px solid white; */
+    
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    
+   
+}
+
+
+
+div.box.visible {
+  opacity: 1;
+  opacity: 1; /* Show when visible */
+  transform: scale(1);
+  
+}
+
+div .first  {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-image: url('images/div1.png'); */
+    background-position: center;
+    height: 670px;
+    width: 385px;
+    overflow: hidden;
+    margin-top: -15px;
+    
+   
+}
+div .first .design img {
+    height: 500px;
+    width: 370px;
+    
+    position: absolute;
+    
+    
+}
+
+div .first .design img:nth-child(1) {
+    margin-bottom: 460px;
+    margin-left: 180px;
+    animation: from-right 3s forwards;
+}
+
+div .first .design img:nth-child(2) {
+    margin-top: 500px;
+    margin-right: 100px;
+    animation: from-left 3s forwards;
+}
+
+@keyframes from-right {
+    from {
+        transform: translateX(-30%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(-10%);
+        opacity: 1;
+      }
+}
+
+@keyframes from-left {
+    from {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+      }
+}
+
+
+
+
+
+div .second {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('images/3div.jpg');
+    background-position: center;
+    height: 670px;
+    width: 385px;
+    margin-top: -20px;
+    opacity: 0; /* Start hidden */
+    transform: scale(0.5); /* Start small */
+    transition: opacity 0.5s ease-out, transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    
+    
+}
+
+div .third  {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('images/3div.jpg');
+    background-position: center;
+    height: 670px;
+    width: 385px;
+    margin-top: -20px;
+    opacity: 0; /* Start hidden */
+    transform: scale(0.5); /* Start small */
+    transition: opacity 0.5s ease-out, transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    
+    
+}
+
+div .fourth  {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('images/3div.jpg');
+    background-position: center;
+    height: 670px;
+    width: 385px;
+    margin-top: -20px;
+    opacity: 0; /* Start hidden */
+    transform: scale(0.5); /* Start small */
+    transition: opacity 0.5s ease-out, transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    
+}
+
+div .fifth  {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('images/3div.jpg');
+    background-position: center;
+    height: 670px;
+    width: 385px;
+    margin-top: -20px;
+    opacity: 0; /* Start hidden */
+    transform: scale(0.5); /* Start small */
+    transition: opacity 0.5s ease-out, transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    
+    
+}
+
+div .sixth  {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('images/3div.jpg');
+    background-position: center;
+    height: 670px;
+    width: 385px;
+    margin-top: -20px;
+    opacity: 0; /* Start hidden */
+    transform: scale(0.5); /* Start small */
+    transition: opacity 0.5s ease-out, transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    
+    
+}
+
+div .seventh  {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('images/3div.jpg');
+    background-position: center;
+    height: 670px;
+    width: 385px;
+    margin-top: -20px;
+    opacity: 0; /* Start hidden */
+    transform: scale(0.5); /* Start small */
+    transition: opacity 0.5s ease-out, transform 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    
+    
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  #countdown > div {
+    text-align: center;
+  }
+  
+  #countdown > div > span {
+    display: block;
+    font-size: 48px;
+  }
+  
+  .smalltext {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999;
+  }
+
+  
